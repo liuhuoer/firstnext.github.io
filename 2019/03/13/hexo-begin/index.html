@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>Hexo搭建 | First &amp; Next</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hexo 静态站点的搭建… …（未完待续）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo搭建">
+<meta property="og:url" content="http://firstnext.cn/2019/03/13/hexo-begin/index.html">
+<meta property="og:site_name" content="First &amp; Next">
+<meta property="og:description" content="Hexo 静态站点的搭建… …（未完待续）">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-12-05T14:41:31.583Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo搭建">
+<meta name="twitter:description" content="Hexo 静态站点的搭建… …（未完待续）">
+  
+    <link rel="alternate" href="/atom.xml" title="First &amp; Next" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    
+    <div id="header-inner" class="inner">
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://firstnext.cn"></form>
+      </div>
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">首页</a>
+        
+          <a class="main-nav-link" href="/archives">归档</a>
+        
+          <a class="main-nav-link" href="/about">关于</a>
+        
+      </nav>
+      
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">First &amp; Next</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">拿出勇气开始，伴着毅力前行。</a>
+        </h2>
+      
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hexo-begin" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/13/hexo-begin/" class="article-date">
+  <time datetime="2019-03-13T14:53:04.505Z" itemprop="datePublished">2019-03-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo搭建
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- Table of Contents -->
+        
+        <p>Hexo 静态站点的搭建… …（未完待续）</p>
+<a id="more"></a>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ul>
+<li><a href="https://gitforwindows.org/" target="_blank" rel="noopener">下载地址</a></li>
+<li>查看版本及验证：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="安装NodeJs"><a href="#安装NodeJs" class="headerlink" title="安装NodeJs"></a>安装NodeJs</h2><ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a></li>
+<li>查看版本及验证：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br><span class="line">$ npm -v</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul>
+<li>创建Hexo博客配置文件夹，cd 到该文件夹下。</li>
+<li><p>安装Hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看版本及验证</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="初始化Hexo博客"><a href="#初始化Hexo博客" class="headerlink" title="初始化Hexo博客"></a>初始化Hexo博客</h2><ul>
+<li><p>初始化Hexo博客配置文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装所需组件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>生成静态文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>启动服务器</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>部署网站</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="配置Github仓库"><a href="#配置Github仓库" class="headerlink" title="配置Github仓库"></a>配置Github仓库</h2><ul>
+<li>创建仓库，名称为yourname.github.io。</li>
+<li><p>在git bash中配置github账户信息。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"username"</span></span><br><span class="line">$ git config --global user.email <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建本机密钥</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将ssh公钥存入github中：（点击头像中的setting选项，选择ssh-key，新建ssh-key，key复制id_rsa.pub中的内容）</p>
+</li>
+<li>验证密钥是否添加成功<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="更改配置信息"><a href="#更改配置信息" class="headerlink" title="更改配置信息"></a>更改配置信息</h2><ul>
+<li>在 _config.yml _文件中配置github地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="绑定个人域名"><a href="#绑定个人域名" class="headerlink" title="绑定个人域名"></a>绑定个人域名</h2><ul>
+<li>进入source文件夹，新建CNAME文件，加入域名，如blog.firstnext.cn</li>
+<li>在购买域名处设置DNS，添加github博客地址，其地址如下可得：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ping yourname.github.io</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h2><ul>
+<li>默认主题是landscape，其配置文件在theme文件夹中，如需更改主题可将目标主题文件存入theme中，并在_config.yml _中更改主题名为目标主题。如该页面主题为<a href="http://blog.giscafer.com/2017/04/16/cafe-release-1/" target="_blank" rel="noopener">cafe</a>，可在github中下载后，重命名为cafe，再存入theme中。更改_config.yml _中的theme为cafe。</li>
+<li><p>生成静态文件并部署</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在github仓库中存储的文件是本地source文件夹和theme文件夹里的使用主题下的内容，博客配置文件并没有被上传到github中。</p>
+</li>
+</ul>
+<h2 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>##参考文献</p>
+<ol>
+<li><a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">https://www.cnblogs.com/fengxiongZz/p/7707219.html</a></li>
+<li><a href="https://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">https://www.cnblogs.com/visugar/p/6821777.html</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://firstnext.cn/2019/03/13/hexo-begin/" data-id="cjveov03i0002rkt9dymtvxbu" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+    
+<nav id="article-nav">
+  
+    <a href="/2019/03/13/install_python2_python3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">
+        
+          安装python2和python3
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/03/13/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+ 
+     
+  <div class="comments" id="comments">
+    
+     
+       
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+       
+      
+      
+  </div>
+ 
+  
+
+</section>
+           
+    <aside id="sidebar">
+  
+    
+
+  
+    
+    <div class="widget-wrap">
+    
+      <div class="widget" id="toc-widget-fixed">
+      
+        <strong class="toc-title">文章目录</strong>
+        <div class="toc-widget-list">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Git"><span class="toc-number">1.</span> <span class="toc-text">安装Git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装NodeJs"><span class="toc-number">2.</span> <span class="toc-text">安装NodeJs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Hexo"><span class="toc-number">3.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#初始化Hexo博客"><span class="toc-number">4.</span> <span class="toc-text">初始化Hexo博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置Github仓库"><span class="toc-number">5.</span> <span class="toc-text">配置Github仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更改配置信息"><span class="toc-number">6.</span> <span class="toc-text">更改配置信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#绑定个人域名"><span class="toc-number">7.</span> <span class="toc-text">绑定个人域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置主题"><span class="toc-number">8.</span> <span class="toc-text">配置主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">9.</span> <span class="toc-text">Create a new post</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">9.1.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">9.2.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">9.3.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+          </div>
+      </div>
+    </div>
+
+  
+    
+
+  
+    
+  
+    
+  
+    
+
+  
+    
+  
+    <!--微信公众号二维码-->
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-left">
+      &copy; 2014 - 2019 liuhuoer&nbsp;|&nbsp;
+      主题 <a href="https://github.com/giscafer/hexo-theme-cafe/" target="_blank">Cafe</a>
+    </div>
+     <div id="footer-right">
+      联系方式&nbsp;|&nbsp;firstnext@foxmail.com
+    </div>
+  </div>
+</footer>
+ <script src="/jquery/jquery.min.js"></script>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+    <img class="back-to-top-btn" src="/images/fly-to-top.png">
+<script>
+// Elevator script included on the page, already.
+window.onload = function() {
+  var elevator = new Elevator({
+    selector:'.back-to-top-btn',
+    element: document.querySelector('.back-to-top-btn'),
+    duration: 1000 // milliseconds
+  });
+}
+</script>
+      
+
+  
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "e2fb4051c49842688ce669e634bc983f",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+    
+
+  
+
+
+
+
+
+
+
+<!-- author:forvoid begin -->
+<!-- author:forvoid begin -->
+
+<!-- author:forvoid end -->
+
+<!-- author:forvoid end -->
+
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      })
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      })
+    </script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+ <script src="/js/is.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+<script src="/js/elevator.js"></script>
+  </div>
+</body>
+</html>
